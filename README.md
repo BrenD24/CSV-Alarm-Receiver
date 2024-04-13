@@ -1,7 +1,7 @@
 # CSV-Alarm-Receiver
 A Python-based class for handling CSV Alarm IP Receiver operations.
 
-This class is specifically designed and tested for use with ICT's Protege Alarm Panels reporting in CSV IP Mode.
+This class is specifically designed and tested for use with ICT's Protege Alarm Panels reporting in CSV IP Mode but should work with any panel capable of reporting to a CSV IP server. 
 
 # Usage
 To get started, initialize an instance of the ContactIDServer class with the following parameters:
