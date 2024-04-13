@@ -6,7 +6,7 @@ import datetime
 
 # Define a class to handle Contact ID protocol over TCP/IP
 class ContactIDServer:
-    def __init__(self, host='0.0.0.0', port=65431, callback=None):
+    def __init__(self, BindIP='0.0.0.0', BindPort=65431, callback=None):
         self.host = host  # IP address the server will listen on
         self.port = port  # Port number the server will listen on
         self.callback = callback  # Callback function to handle processed data
