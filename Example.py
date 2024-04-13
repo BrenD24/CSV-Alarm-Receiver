@@ -22,7 +22,7 @@ def processAlarm(data):
         print("----------------------------")
 
 # Initialize the ContactIDServer with the specified port and the callback function
-server = ContactIDServer(port=5553, callback=processAlarm)
+server = ContactIDServer(BindPort=5553, callback=processAlarm)
 
 # Start the server to listen for incoming alarm messages
 server.run_server()
