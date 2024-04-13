@@ -23,6 +23,7 @@ DataReturned = [
 
 # Utility Functions
 The class also includes two utility functions for retrieving descriptions of event qualifiers and event codes:
+Note: The dictionaries for these definitions is by no means compleate
 
 Event Qualifier Description = ContactIDServer.find_event_quals(event_qualifier_id)
 Event Code Description = ContactIDServer.find_event_description(event_id)
