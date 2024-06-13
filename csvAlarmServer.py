@@ -11,7 +11,7 @@ class ContactIDServer:
         self.port = port  # Port number the server will listen on
         self.callback = callback  # Callback function to handle processed data
         self.server_socket = None  # Socket object for the server
-        # Dictionary of predefined event codes and their descriptions
+        # Dictionary of predefined event codes and their descriptions - Not at all compleate however covers some basics
         self.event_codes = {
             '100': 'Medical Emergency',
             '101': 'Fire Alarm',
