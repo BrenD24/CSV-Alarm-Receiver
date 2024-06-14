@@ -6,8 +6,12 @@ This class is specifically designed and tested for use with ICT's Protege Alarm 
 # Usage
 To get started, initialize an instance of the ContactIDServer class with the following parameters:
 
-server = ContactIDServer(BindIP="0.0.0.0", BindPort=65431, CallbackFunction=None)
+server = ContactIDServer(host="0.0.0.0", port=65431, CallbackFunction=None)
 
+Description:
+host: The IP address to bind the server to.
+port: The port number to bind the server to.
+CallbackFunction: The function that will be called when alarm data is received. This function must accept a list as a parameter.
 
 # Receiving Alarms
 When an alarm is received, the specified callback function is triggered with the alarm data as its argument. The data structure returned is as follows:
